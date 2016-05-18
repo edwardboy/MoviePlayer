@@ -16,6 +16,12 @@
 		EE9F66FD1CEC5C2600CC27F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F66F51CEC5C2600CC27F2 /* Assets.xcassets */; };
 		EE9F66FE1CEC5C2600CC27F2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE9F66F71CEC5C2600CC27F2 /* Info.plist */; };
 		EE9F66FF1CEC5C2600CC27F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F66F81CEC5C2600CC27F2 /* main.m */; };
+		EE9F670C1CEC5D5A00CC27F2 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE9F67001CEC5D5A00CC27F2 /* MBProgressHUD.bundle */; };
+		EE9F670D1CEC5D5A00CC27F2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F67021CEC5D5A00CC27F2 /* MBProgressHUD.m */; };
+		EE9F670E1CEC5D5A00CC27F2 /* TBloaderURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F67051CEC5D5A00CC27F2 /* TBloaderURLConnection.m */; };
+		EE9F670F1CEC5D5A00CC27F2 /* TBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F67071CEC5D5A00CC27F2 /* TBPlayer.m */; };
+		EE9F67101CEC5D5A00CC27F2 /* TBVideoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F67091CEC5D5A00CC27F2 /* TBVideoRequestTask.m */; };
+		EE9F67111CEC5D5A00CC27F2 /* XCHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9F670B1CEC5D5A00CC27F2 /* XCHudHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,17 @@
 		EE9F66F51CEC5C2600CC27F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE9F66F71CEC5C2600CC27F2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9F66F81CEC5C2600CC27F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE9F67001CEC5D5A00CC27F2 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		EE9F67011CEC5D5A00CC27F2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EE9F67021CEC5D5A00CC27F2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EE9F67041CEC5D5A00CC27F2 /* TBloaderURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBloaderURLConnection.h; sourceTree = "<group>"; };
+		EE9F67051CEC5D5A00CC27F2 /* TBloaderURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBloaderURLConnection.m; sourceTree = "<group>"; };
+		EE9F67061CEC5D5A00CC27F2 /* TBPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBPlayer.h; sourceTree = "<group>"; };
+		EE9F67071CEC5D5A00CC27F2 /* TBPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBPlayer.m; sourceTree = "<group>"; };
+		EE9F67081CEC5D5A00CC27F2 /* TBVideoRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVideoRequestTask.h; sourceTree = "<group>"; };
+		EE9F67091CEC5D5A00CC27F2 /* TBVideoRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVideoRequestTask.m; sourceTree = "<group>"; };
+		EE9F670A1CEC5D5A00CC27F2 /* XCHudHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHudHelper.h; sourceTree = "<group>"; };
+		EE9F670B1CEC5D5A00CC27F2 /* XCHudHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHudHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,10 +176,29 @@
 		EE9F66F61CEC5C2600CC27F2 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				EE9F67001CEC5D5A00CC27F2 /* MBProgressHUD.bundle */,
+				EE9F67011CEC5D5A00CC27F2 /* MBProgressHUD.h */,
+				EE9F67021CEC5D5A00CC27F2 /* MBProgressHUD.m */,
+				EE9F67031CEC5D5A00CC27F2 /* TBPlayer */,
+				EE9F670A1CEC5D5A00CC27F2 /* XCHudHelper.h */,
+				EE9F670B1CEC5D5A00CC27F2 /* XCHudHelper.m */,
 				EE9F66F71CEC5C2600CC27F2 /* Info.plist */,
 				EE9F66F81CEC5C2600CC27F2 /* main.m */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EE9F67031CEC5D5A00CC27F2 /* TBPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F67041CEC5D5A00CC27F2 /* TBloaderURLConnection.h */,
+				EE9F67051CEC5D5A00CC27F2 /* TBloaderURLConnection.m */,
+				EE9F67061CEC5D5A00CC27F2 /* TBPlayer.h */,
+				EE9F67071CEC5D5A00CC27F2 /* TBPlayer.m */,
+				EE9F67081CEC5D5A00CC27F2 /* TBVideoRequestTask.h */,
+				EE9F67091CEC5D5A00CC27F2 /* TBVideoRequestTask.m */,
+			);
+			path = TBPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +306,7 @@
 			files = (
 				EE9F66FE1CEC5C2600CC27F2 /* Info.plist in Resources */,
 				EE9F66FB1CEC5C2600CC27F2 /* LaunchScreen.storyboard in Resources */,
+				EE9F670C1CEC5D5A00CC27F2 /* MBProgressHUD.bundle in Resources */,
 				EE9F66FD1CEC5C2600CC27F2 /* Assets.xcassets in Resources */,
 				EE9F66FC1CEC5C2600CC27F2 /* Main.storyboard in Resources */,
 			);
@@ -296,9 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9F67101CEC5D5A00CC27F2 /* TBVideoRequestTask.m in Sources */,
+				EE9F670F1CEC5D5A00CC27F2 /* TBPlayer.m in Sources */,
 				EE9F66FA1CEC5C2600CC27F2 /* ViewController.m in Sources */,
 				EE9F66FF1CEC5C2600CC27F2 /* main.m in Sources */,
+				EE9F67111CEC5D5A00CC27F2 /* XCHudHelper.m in Sources */,
+				EE9F670E1CEC5D5A00CC27F2 /* TBloaderURLConnection.m in Sources */,
 				EE9F66F91CEC5C2600CC27F2 /* AppDelegate.m in Sources */,
+				EE9F670D1CEC5D5A00CC27F2 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
